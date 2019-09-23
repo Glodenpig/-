@@ -1,0 +1,41 @@
+.pagenav {
+    background-color: aqua;
+    width: 100%;
+    height: 8vh;
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.pagehead {
+    background-color: red;
+    width: 100%;
+    height: 15vh;
+}
+
+.pagebody {
+    background-color: rgb(31, 211, 85);
+    height: 80vh;
+}
+
+.pageside {
+    background-color: rgb(27, 31, 233);
+    width: 30vw;
+    height: 80vh;
+    float: left;
+}
+
+.pagehome {
+    background-color: blueviolet;
+    height: 80vh;
+}
+
+.pagefour {
+    background-color: rgb(70, 189, 149);
+    height: 40vh;
+}
