@@ -1,15 +1,42 @@
-.pagenav {
-    background-color: aqua;
-    width: 100%;
-    height: 8vh;
-}
-
 html {
     margin: 0px;
 }
 
 body {
     margin: 0px;
+}
+
+.allbody {
+    margin: 0 20px;
+}
+
+.pagenav {
+    background-color: #333;
+    height: 8vh;
+    padding: 0 20px;
+}
+
+.navleft {
+    color: #b0b0b0;
+    float: left;
+    border-right: 1px solid #b0b0b0;
+    margin: 1rem 0;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.navright {
+    color: #b0b0b0;
+    float: right;
+    margin: 1rem 0;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.navline {
+    color: #b0b0b0;
+    margin: 0.8rem 0;
+    float: right;
 }
 
 .pagehead {
@@ -25,7 +52,7 @@ body {
 
 .pageside {
     background-color: rgb(27, 31, 233);
-    width: 30vw;
+    width: 30%;
     height: 80vh;
     float: left;
 }
@@ -35,7 +62,72 @@ body {
     height: 80vh;
 }
 
+.pagehome img {
+    width: 70%;
+    height: 100%;
+    float: left
+}
+
 .pagefour {
     background-color: rgb(103, 136, 125);
-    height: 40vh;
+    height: 60vh;
+    padding: 0 0 0 25px;
+    display: block;
+}
+
+.fourclass {
+    width: 20%;
+    height: 80%;
+    background-color: beige;
+    float: left;
+    margin: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+.flash {
+    width: 100%;
+    background-color: aqua;
+}
+
+.flashdiv {
+    width: 17%;
+    height: 80%;
+    background-color: beige;
+    float: left;
+    margin: 15px;
+}
+
+.redmi {
+    background-color: red;
+    width: 100%;
+    height: 20vh;
+}
+
+.photo {
+    background-color: rgb(13, 197, 84);
+    widows: 100%;
+    height: 120vh;
+}
+
+.photodiv1 {
+    width: 17%;
+    height: 85%;
+    background-color: beige;
+    float: left;
+    margin: 15px;
+}
+
+.photodiv2 {
+    height: 50px;
+}
+
+.photodiv {
+    width: 17%;
+    height: 40%;
+    background-color: beige;
+    float: left;
+    margin: 15px;
 }
